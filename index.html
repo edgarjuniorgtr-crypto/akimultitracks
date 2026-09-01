@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>AKI Multitracks</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #0b0b0b;
+      color: white;
+    }
+
+    header {
+      background: #111;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 1px solid #292929;
+    }
+
+    .logo {
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .logo span {
+      color: #e50914;
+    }
+
+    .subtitulo {
+      color: #aaa;
+      margin-top: 8px;
+      font-size: 14px;
+    }
+
+    .banner {
+      text-align: center;
+      padding: 50px 20px;
+      background: linear-gradient(135deg, #151515, #080808);
+    }
+
+    .banner h1 {
+      font-size: 38px;
+      margin-bottom: 12px;
+    }
+
+    .banner p {
+      color: #aaa;
+      font-size: 16px;
+    }
+
+    .catalogo {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .titulo {
+      font-size: 25px;
+      margin-bottom: 25px;
+    }
+
+    .produtos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 25px;
+    }
+
+    .produto {
+      background: #151515;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid #262626;
+      transition: 0.3s;
+    }
+
+    .produto:hover {
+      transform: translateY(-5px);
+      border-color: #e50914;
+    }
+
+    .capa {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      background: #222;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #777;
+      font-size: 15px;
+    }
+
+    .informacoes {
+      padding: 18px;
+    }
+
+    .informacoes h3 {
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
+
+    .artista {
+      color: #999;
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+
+    .preco {
+      font-size: 22px;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    .comprar {
+      display: block;
+      width: 100%;
+      text-align: center;
+      padding: 12px;
+      background: #e50914;
+      color: white;
+      text-decoration: none;
+      border-radius: 7px;
+      font-weight: bold;
+    }
+
+    .comprar:hover {
+      background: #ff1a25;
+    }
+
+    .arquivo {
+      margin-top: 12px;
+      padding: 10px;
+      background: #0d0d0d;
+      border-radius: 6px;
+      font-size: 12px;
+      color: #777;
+      text-align: center;
+    }
+
+    footer {
+      margin-top: 60px;
+      padding: 30px;
+      text-align: center;
+      background: #111;
+      color: #777;
+      font-size: 13px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">AKI<span>MULTITRACKS</span></div>
+  <div class="subtitulo">
+    Multitracks para sua banda e ministério
+  </div>
+</header>
+
+<section class="banner">
+  <h1>Seu som. Suas tracks.</h1>
+  <p>
+    Encontre multitracks para elevar a qualidade da sua apresentação.
+  </p>
+</section>
+
+<section class="catalogo">
+
+  <h2 class="titulo">🎵 Multitracks disponíveis</h2>
+
+  <div class="produtos">
+
+    <!-- PRODUTO 1 -->
+    <div class="produto">
+
+      <div class="capa">
+        CAPA DA MÚSICA
+      </div>
+
+      <div class="informacoes">
+
+        <h3>Nome da Música</h3>
+
+        <div class="artista">
+          Artista / Banda
+        </div>
+
+        <div class="preco">
+          R$ 15,00
+        </div>
+
+        <a href="#" class="comprar">
+          COMPRAR
+        </a>
+
+        <div class="arquivo">
+          📦 Arquivo ZIP • Multitrack
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- PRODUTO 2 -->
+    <div class="produto">
+
+      <div class="capa">
+        CAPA DA MÚSICA
+      </div>
+
+      <div class="informacoes">
+
+        <h3>Outra Música</h3>
+
+        <div class="artista">
+          Artista / Banda
+        </div>
+
+        <div class="preco">
+          R$ 15,00
+        </div>
+
+        <a href="#" class="comprar">
+          COMPRAR
+        </a>
+
+        <div class="arquivo">
+          📦 Arquivo ZIP • Multitrack
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- PRODUTO 3 -->
+    <div class="produto">
+
+      <div class="capa">
+        CAPA DA MÚSICA
+      </div>
+
+      <div class="informacoes">
+
+        <h3>Nova Música</h3>
+
+        <div class="artista">
+          Artista / Banda
+        </div>
+
+        <div class="preco">
+          R$ 15,00
+        </div>
+
+        <a href="#" class="comprar">
+          COMPRAR
+        </a>
+
+        <div class="arquivo">
+          📦 Arquivo ZIP • Multitrack
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<footer>
+  © 2026 AKI Multitracks — Todos os direitos reservados.
+</footer>
+
+</body>
+</html>
